@@ -63,7 +63,7 @@ public class CitilinkParameterizedTests extends BaseTest {
     void enumCitySelectTest(Cities city) {
         new CitiLinkMainPage()
                 .citySelectButton()
-                .selectCityAndСheck(city);
+                .selectCityAndCheck(city);
 
     }
 }

@@ -27,7 +27,7 @@ public class CitiLinkMainPage {
         return this;
     }
 
-    void selectCityAndcheck(Cities city) {
+    void selectCityAndСheck(Cities city) {
         citiesList.find(text(city.getCity())).click();
         citySelectButton.shouldHave(text(city.getCity()));
     }
